@@ -13,37 +13,153 @@
     <div id="hero">
         <header>
             <img id="logo" src="./images/gelatohavenlogo.png" alt="gelato haven company logo" width="210">
+            <p>gelatohaven.ca</p>
+            <p>info@gelatohaven.ca</p>
         </header>
         <nav id="topBar">
             <ul>
                 <li><a href="./index.html">home</a></li>
-                <li><a href="./ourstory.html">our story</a></li>
+                <li><a href="./aboutus.html">about us</a></li>
                 <li><a href="./gelato.html">gelato</a></li>
                 <li><a href="./beverages.html">beverages</a></li>
                 <li><a href="./ourteam.html">our team</a></li>
                 <li><a href="./contactus.html">contact us</a></li>
+                <li><a href="./links.html">links</a></li>
             </ul>
         </nav>
         <main>
-            <p class="small">page coming soon!</p>
+            <div class="content">
+                <h1 class="neonText">Contact Us</h1>
+                <div class="morecontent">
+                <p>Welcome to our Contact Us page where you can find information on our opening times, location, and contact information.
+                    <br>If you have any inquires or concerns
+                    there is a form at the end of the page that you can fill out.
+                </p></div>
+                <div class="twocols">
+                    <section class="content">
+                        <h2>Hours of Operation</h2>
+                        <table>
+                            <tr>
+                                <th scope="col">Days</th>
+                                <th scope="col">Hours</th>
+                            </tr>
+                            <tr>
+                                <td>Monday</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday - Thursday</td>
+                                <td>2 pm - 9 pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday - Saturday</td>
+                                <td>1 pm - 10 pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>1 pm - 9 pm</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section class="content">
+                        <h2>Our Location</h2>
+                        <p>123 Downtown Ottawa, Ottawa
+                            <br>Canada, K1N 9H7
+                        </p>
+                        <h3> Our Contact Information </h3>
+                        <p>Email:<a href="mailto:info@gelatohaven.ca">info@gelatohaven.ca</a>
+                            <br>Phone Number: <a href="tel:(123)456-7890">(123) 456-7890</a>
+                        </p>
+                    </section>
+                </div>
+                <section class="content">
+                    <h2>Got inquires? Please fill out this form to help us contact you</h2>
+                    <form action="contactus.html" method="get">
+                        <fieldset class="cxinfo">
+                            <legend>Please provide us with your information</legend>
+                            <label for="cxname" class="form">Name:</label>
+                            <input type="text" name="cxname" id="cxname" placeholder="e.g. Tan Pham" class="form">
+                            <br>
+                            <label for="email" class="form">E-mail Address: </label>
+                            <input type="text" name="email" id="email" placeholder="e.g. info@gelatohaven.ca"
+                                class="form">
+                            <br>
+                            <label for="phone" class="form">Phone Number:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="e.g. (123) 456-7890" class="form">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Preferred method of contact:</legend>
+                            <input type="radio" name="contactoption" id="emailop">
+                            <label for="emailop">By Email</label>
+                            <br>
+                            <input type="radio" name="contactoption" id="phoneop">
+                            <label for="phoneop">By Phone Call</label>
+                            <br>
+                            <input type="radio" name="contactoption" id="textop">
+                            <label for="textop">By Text Message</label>
+                            <br>
+                            <input type="radio" name="contactoption" id="noop" checked>
+                            <label for="noop">No Preference</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Reason for contact:</legend>
+                            <input type="checkbox" name="general" id="general">
+                            <label for="general">General Inquiries</label>
+                            <br>
+                            <input type="checkbox" name="gelatomenu" id="gelatomenu">
+                            <label for="gelatomenu">Gelato Menu</label>
+                            <br>
+                            <input type="checkbox" name="beveragesmenu" id="beveragesmenu">
+                            <label for="beveragesmenu">Beverage Menu</label>
+                            <br>
+                            <input type="checkbox" name="feedback" id="feedback">
+                            <label for="feedback">Feedback or Reviews</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>How did you find out about us?</legend>
+                            <select name="discoverhow" id="discoverhow" class="formcenter">
+                                <option value="friendsAndFamily">Friends and Family</option>
+                                <option value="search">Online Search</option>
+                                <option value="socialMedia">Facebook</option>
+                                <option value="socialMedia">Instagram</option>
+                                <option value="advertisement">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </fieldset><fieldset>
+                        <legend >Additional Information:</legend>
+                        <textarea name="additionalinfo" id="additionalinfo" rows="4" cols="30" class="formcenter" ></textarea>
+                        </fieldset>
+                        <div>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </section>
+            </div>
         </main>
-    </div>
     <footer>
         <div id="botBar">
             <nav>
                 <ul>
                     <li><a href="./index.html">home</a></li>
-                    <li><a href="./ourstory.html">our story</a></li>
+                    <li><a href="./aboutus.html">about us</a></li>
                     <li><a href="./gelato.html">gelato</a></li>
                     <li><a href="./beverages.html">beverages</a></li>
                     <li><a href="./ourteam.html">our team</a></li>
                     <li><a href="./contactus.html">contact us</a></li>
+                    <li><a href="./links.html">links</a></li>
                 </ul>
             </nav>
+            <p><a target="_blank"
+                    href="https://www.pexels.com/photo/gelato-on-stainless-trays-inside-a-display-freezer-5061197/">Gelato
+                    on Stainless Trays Inside a Display Freezer
+                    taken by Roman Odintsov</a></p>
+
             <!-- Change year depending on what year it is -->
             <small>Copyright &copy; 2023, Gelato Haven</small>
         </div>
     </footer>
+</div>
 </body>
 
 </html>
