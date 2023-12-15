@@ -31,7 +31,7 @@ body {
 }
 
 #hero {
-  background: url(/images/hero_banner_photo_pexels-roman-odintsov-5061197.png)
+  background: url(../images/hero_banner_photo_pexels-roman-odintsov-5061197.png)
     100% no-repeat;
   background-size: cover;
   height: 950px;
