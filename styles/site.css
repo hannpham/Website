@@ -302,6 +302,10 @@ select {
   padding-block-end: 10px
 }
 
+#botBar p {
+  padding: 3px;
+}
+
 footer > p,
 small {
   font-size: 0.9em;
